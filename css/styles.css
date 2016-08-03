@@ -1,3 +1,17 @@
 .hidden{
     display:none;
 }
+
+.picture{
+    width: 200px;
+    overflow: hidden;
+}
+
+#picture{
+    /*width: 120px;*/
+    height: 200px;
+}
+
+.result{
+    display: inline-block;
+}

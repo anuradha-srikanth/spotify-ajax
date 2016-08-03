@@ -11,7 +11,7 @@ var showQuestion = function(question) {
     
     // Set the question properties in result
     var pic = result.find('.picture');
-    pic.html('<img src="' + question.images[0].url + '" </img>');
+    pic.html('<img id="picture" src="' + question.images[0].url + '"</img>');
 
     var name = result.find('.artistName');
     name.html('<p>' + question.name + '</p>');
